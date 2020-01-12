@@ -1,0 +1,76 @@
+footer{
+    background-color: #4E3726;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+}
+
+.newslatter{
+    display: flex;
+    flex-direction: column;
+}
+
+.title-news{
+    font-size: 20px;
+    margin: 25px 0;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.datas{
+    display: flex;
+}
+
+.inputs{
+    flex: 1;
+    margin-right: 25px;
+}
+
+.inputs label{
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+}
+
+.inputs label span{
+    color: red;
+}
+
+.inputs input, textarea{
+    width: 80%;
+    padding: 10px;
+    outline: 0;
+    border: none;
+}
+
+.input-send{
+    width: 120px;;
+}
+
+.input-send button{
+    margin-top: 28px;
+    padding: 10px 25px;
+    background-color: #39271C;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.input-send button:hover{
+    background-color: #ffffff;
+    color: #39271C;
+}
+
+.copy{
+    padding: 25px 0;
+    text-align: center;
+    font-size: 14px;
+    font-family: sans-serif;
+    line-height: 20px;
+}

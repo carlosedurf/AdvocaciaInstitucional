@@ -1,0 +1,9 @@
+.mainBanner{
+    background-color: #5C4535;
+    color: #FFF;
+    height: 160px;
+    text-align: center;
+    line-height: 160px;
+    font-size: 30px;
+    font-family: sans-serif;
+}
